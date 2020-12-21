@@ -12,7 +12,7 @@ public class HeartRateDriver {
         String firstName = input.nextLine();
 
         System.out.println("enter your last name");
-        String LastName = input.nextLine();
+        String lastName = input.nextLine();
 
         System.out.println("enter your day of Birth");
         int day = input.nextInt();
@@ -23,9 +23,9 @@ public class HeartRateDriver {
         System.out.println("enter your year of Birth");
         int year = input.nextInt();
 
-        HeartRates IbkHeartRate = new HeartRates(firstName, LastName, day, month, year );
+        HeartRates IbkHeartRate = new HeartRates(firstName, lastName, day, month, year );
 
-        System.out.printf("Your first name is %s%n ",  IbkHeartRate.getfirstName());
+        System.out.printf("Your first name is %s%n ",  IbkHeartRate.getFirstName());
         System.out.printf("Your last name is %s%n ",  IbkHeartRate.getLastName());
         System.out.printf("Your age is %d%n ",  IbkHeartRate.getAge(IbkHeartRate.getYear()));
         System.out.printf("Your maximum heart rate is %d%n ",  IbkHeartRate.getMaximumHeartRate(IbkHeartRate.getAge(IbkHeartRate.getYear())));

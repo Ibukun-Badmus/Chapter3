@@ -27,8 +27,8 @@ class HeartRatesTest {
     }
     @Test
     void CheckThatClassCanSetAndGetFirstName(){
-        heartRates.setfirstName("David");
-        assertEquals("David", heartRates.getfirstName());
+        heartRates.setFirstName("David");
+        assertEquals("David", heartRates.getFirstName());
     }
 
     @Test
@@ -44,7 +44,7 @@ class HeartRatesTest {
     }
 
     @Test
-    void CheckThatClassCanSetMonth(){
+    void CheckThatClassCanSetAndGetMonth(){
         heartRates.setMonth(7);
         assertEquals(7, heartRates.getMonth());
 
@@ -55,10 +55,6 @@ class HeartRatesTest {
         heartRates.setYear(2010);
         assertEquals(2010, heartRates.getYear());
     }
-    /* the formula for calculating your maximum heart rate in beats per minute is 220 minus
-    your age in years. Your target heart rate is a range that’s 50–85% of your maximum heart rate
-    a method that calculates and returns the person’s maximum heart rate and
-    a method that calculates and returns the person’s target heart rate.*/
 
     @Test
     void CheckThatClassCanReturnPersonsAgeInYears(){
