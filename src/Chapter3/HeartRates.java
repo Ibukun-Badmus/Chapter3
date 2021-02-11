@@ -19,12 +19,12 @@ public class HeartRates {
 
     }
 
-    public void setfirstName(String firstName) {
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
 
     }
 
-    public String getfirstName() {
+    public String getFirstName() {
         return firstName;
     }
 
